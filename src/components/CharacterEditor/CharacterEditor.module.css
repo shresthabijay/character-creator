@@ -4,10 +4,13 @@
 }
 
 .maxWidthWrapper {
+  /* Using relative to keep the content above the perspective background. */
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +27,20 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  height: 500px;
+  top: 128px;
+  right: 10%;
 }
 
 .controlColumn {
+  max-width: 50%;
+}
+
+.perspectiveBackground {
+  position: fixed;
+  bottom: 0;
+  height: 40vh;
+  width: 100vw;
+  background-color: hsl(195deg, 20%, 86%);
 }

@@ -4,6 +4,10 @@ body,
   height: 100%;
 }
 
+:root {
+  --bp-tablet: 768px;
+}
+
 body {
   background-color: hsl(180deg, 25%, 92%);
   margin: 0;
@@ -12,7 +16,7 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
